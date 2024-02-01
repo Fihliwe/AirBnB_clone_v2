@@ -9,9 +9,10 @@ from os.path import exists
 
 
 env.hosts = ['100.26.215.114', '100.25.45.160']  # <IP web-01>, <IP web-02>
-# ^ All remote commands must be executed on your both web servers
+"""
+All remote commands must be executed on your both web servers
 # (using env.hosts = ['<IP web-01>', 'IP web-02'] variable in your script)
-
+"""
 
 def do_deploy(archive_path):
     """ distributes an archive to my web servers
