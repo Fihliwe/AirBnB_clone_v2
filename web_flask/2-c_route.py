@@ -35,3 +35,12 @@ def display_c_is_cool():
     return c cool
     """
     return "C cool"
+
+if __name__ == "__main__":
+    """
+    run above code
+    """
+    
+    print("* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)")
+    app.run(host='0.0.0.0', port=5000)
+    
