@@ -22,7 +22,7 @@ def display_hbnb():
     """
     return "HBNB"
 
-@app.route("/c/is fun", strict_slashes=False)
+@app.route("/c/is_fun", strict_slashes=False)
 def display_c():
     """
     return “C ” followed by the value of the text variable
