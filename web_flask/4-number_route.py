@@ -44,14 +44,12 @@ def display_is_magic(text="is cool"):
     """
     return 'Python ' + text.replace('_', ' ')
 
-@app.route("/number/<n>", strict_slashes=False)
+@app.route("/number/<int:n>", strict_slashes=False)
 def display_integer(n):
     """
     display n is a number
     """
     return "{:d} is a number".format(n)
-
-
 
 if __name__ == "__main__":
     """
