@@ -38,7 +38,7 @@ def display_c_is_cool(text):
 
 @app.route("/python/<text>", strict_slashes=False)
 @app.route("/python", strict_slashes=False)
-def display_is_magic(text):
+def display_is_magic(text="is cool"):
     """
     return "is magic"
     """
